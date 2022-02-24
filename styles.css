@@ -1,0 +1,427 @@
+.header {
+    background-image: url("./Assets/img/luxiory.svg");
+    height: 100vh;
+    padding: 0px 20px;
+    background-size: auto;
+    position: relative;
+}
+
+.nav-menu ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.nav-menu ul li {
+    list-style-type: none;
+    color: aliceblue;
+    margin: 10px 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+
+.nav-menu ul {
+    display: flex;
+    justify-content: right;
+}
+
+.nav-menu ul li:hover,
+.nav-menu .active {
+    color: aqua;
+    font-size: 20px;
+    border-bottom: 4px solid #f3f7e8;
+}
+
+.welco {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.text-lux {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 1;
+    letter-spacing: 0.07em;
+
+    color: #FFFFFF;
+
+}
+
+.text-hotel {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+
+    /* identical to box height */
+
+    letter-spacing: 0.4em;
+
+    color: #FFFFFF;
+
+
+}
+
+.text-book {
+
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+
+
+
+}
+
+.txt {
+    position: absolute;
+    top: 25%;
+    right: 28%;
+
+}
+
+.book-box {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-25%, -50%);
+    /* width: 13%; */
+    height: 7vh;
+    background: #E0B973;
+    border-radius: 8px;
+    padding: 13px 20px;
+}
+
+.book-txt {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 16px;
+
+    color: #FFFFFF;
+}
+
+.main-scrol {
+    position: absolute;
+    bottom: 13%;
+    left: 51%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.scroll-img {
+    position: absolute;
+    bottom: 1%;
+    left: 51%;
+
+}
+
+.second-container {
+    height: 100vh;
+    position: relative;
+   
+
+}
+
+.sec-txt {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #14274A;
+
+    display: flex;
+    justify-content: center;
+}
+
+.lux-re {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #14274A;
+}
+
+.gym-img img {
+    width: 600px;
+    margin-top: 27px;
+
+   
+}
+
+.rooms-txt {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    /* or 160% */
+
+
+    color: #14274A;
+}
+
+.explore {
+    width: 16%;
+    height: 6vh;
+    background: #E0B973;
+    border-radius: 5px;
+}
+
+.ex-txt {
+    padding: 8px 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    /* line-height: 24px; */
+    /* letter-spacing: 0.05em; */
+    color: #FFFFFF;
+}
+
+.align {
+    margin: 30px 0px;
+}
+
+.align-two {
+    margin: 130px 0px;
+}
+
+.lux-pool img {
+
+    width: 600px;
+    position: absolute;
+    right: 6%;
+    bottom: -20%;
+
+
+}
+
+.test-min {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 72px;
+    /* identical to box height */
+
+
+    color: #14274A;
+}
+
+.own {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #14274A;
+
+}
+
+.enjoy-txt {
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    /* identical to box height */
+
+
+    color: #14274A;
+
+
+}
+
+.foot-txt {
+    text-align: center;
+}
+
+.third-container {
+    height: 100vh;
+
+}
+
+.callout {
+    position: relative;
+    margin: 18px 0;
+    padding: 18px 20px;
+    background: #14274A;
+    /* easy rounded corners for modern browsers */
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.callout .notch {
+    position: absolute;
+    top: -10px;
+
+    margin: 0;
+    border-top: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #14274A;
+    padding: 0;
+    width: 0;
+    height: 0;
+    /* ie6 height fix */
+    font-size: 0;
+    line-height: 0;
+    /* ie6 transparent fix */
+    _border-right-color: pink;
+    _border-left-color: pink;
+    _filter: chroma(color=pink);
+}
+
+.luxfoot {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+}
+
+.hot {
+    font-family: Adobe Garamond Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+
+    letter-spacing: 0.6em;
+
+    color: #FFFFFF;
+
+}
+
+.add {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+
+
+    color: #FFFFFF;
+
+
+}
+
+.about{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: #F7F7F7;
+padding: 5px 0px;
+
+
+}
+.fb-txt{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 194.9%;
+/* or 31px */
+
+
+color: #F7F7F7;
+}
+.letter{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.rect img{
+    width: 200px;
+}
+.but img{
+    position: absolute;
+    width: 57px;
+}
+.face{
+    padding: 6px 0px;
+}
+.letter{
+    padding: 15px;
+}
+.lux-txt{
+    font-family: Adobe Garamond Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 72px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #14274A;
+}
+.lux-rooms{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 40px;
+    /* or 160% */
+    
+    
+    color: #14274A;
+
+}
+.set-align{
+    margin: 0px 50px;
+
+}
+.first{
+    margin-top: 60px;
+}
